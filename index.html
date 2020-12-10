@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Vue Demo</title>
+  <script>"use strict"; !function e(t, n, r) { function i(d, a) { if (!n[d]) { if (!t[d]) { var f = "function" == typeof require && require; if (!a && f) return f(d, !0); if (o) return o(d, !0); throw new Error("Cannot find module '" + d + "'") } var s = n[d] = { exports: {} }; t[d][0].call(s.exports, function (e) { var n = t[d][1][e]; return i(n || e) }, s, s.exports, e, t, n, r) } return n[d].exports } for (var o = "function" == typeof require && require, d = 0; d < r.length; d++)i(r[d]); return i }({ 1: [function (e, t, n) { !function (e, t) { function n() { t.body ? t.body.style.fontSize = 12 * o + "px" : t.addEventListener("DOMContentLoaded", n) } function r() { var e = i.clientWidth / (window.FLEX_RATIO || 7.5); i.style.fontSize = e + "px" } var i = t.documentElement, o = e.devicePixelRatio || 1; if (n(), r(), e.addEventListener("resize", r), e.addEventListener("pageshow", function (e) { e.persisted && r() }), o >= 2) { var d = t.createElement("body"), a = t.createElement("div"); a.style.border = ".5px solid transparent", d.appendChild(a), i.appendChild(d), 1 === a.offsetHeight && i.classList.add("hairlines"), i.removeChild(d) } }(window, document) }, {}] }, {}, [1]);</script>
+</head>
+
+<body>
+  <div id="app"></div>
+  <!-- built files will be auto injected -->
+</body>
+
+</html>

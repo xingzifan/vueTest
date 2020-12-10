@@ -1,0 +1,93 @@
+@charset "utf-8";
+
+.bkg-0 {
+  background-color: #000000;
+}
+
+.bkg-1 {
+  background-color: #111111;
+}
+
+.bkg-2 {
+  background-color: #222222;
+}
+
+.bkg-3 {
+  background-color: #333333;
+}
+
+.bkg-4 {
+  background-color: #444444;
+}
+
+.bkg-5 {
+  background-color: #555555;
+}
+
+.bkg-6 {
+  background-color: #666666;
+}
+
+.bkg-7 {
+  background-color: #777777;
+}
+
+.bkg-8 {
+  background-color: #888888;
+}
+
+.bkg-9 {
+  background-color: #999999;
+}
+
+.bkg-a {
+  background-color: #aaaaaa;
+}
+
+.bkg-b {
+  background-color: #bbbbbb;
+}
+
+.bkg-c {
+  background-color: #cccccc;
+}
+
+.bkg-d {
+  background-color: #dddddd;
+}
+
+.bkg-e {
+  background-color: #eeeeee;
+}
+
+.bkg-f {
+  background-color: #ffffff;
+}
+
+.bkg-trans {
+  background-color: transparent;
+}
+
+.bkg-f5 {
+  background-color: #f5f5f5;
+}
+
+.bkg-f6 {
+  background-color: #f6f6f6;
+}
+
+.bkg-fa {
+  background-color: #fafafa;
+}
+
+.bkg-sys1 {
+  background-color: #e5bf76;
+}
+
+.bkg-sys2 {
+  background-color: #ec723b;
+}
+
+.bkg-sys3 {
+  background-color: #fdf2ec;
+}

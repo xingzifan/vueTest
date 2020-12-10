@@ -1,0 +1,29 @@
+.ellipsis1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+}
+
+.ellipsis2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  word-break: break-all;
+}
+
+.mask-layer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #000;
+  opacity: 0.5;
+  z-index: 1;
+}
