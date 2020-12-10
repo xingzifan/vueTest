@@ -62,5 +62,10 @@ export default [
   {
     path: "/components5",
     component: resolve => require(["@/components5"], resolve)
+  },
+
+  {
+    path: "/components6/A",
+    component: resolve => require(["@/components6/A"], resolve)
   }
 ];
