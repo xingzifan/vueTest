@@ -14,6 +14,7 @@
     "axios": "^0.19.2",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1",
+    "vuex": "^3.6.0",
     "weixin-jsapi": "^1.1.0"
   },
   "devDependencies": {
